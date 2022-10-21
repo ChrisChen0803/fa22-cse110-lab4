@@ -26,3 +26,23 @@ B. student["Grad Year"]
 C. student.greeting()  
 D. student["Favorite Teacher"].name  
 E. student.courseLoad[0]  
+### Question 13
+A. '32' 2 will append to '3' and get 32.  
+B. 1 3 subtracts 2 is 1.  
+C. 3 number 3 + null which is 0 will get 3.  
+D. '3null'  null append to 3 is 3null  
+E. 4 true's value is 1, 1+3=4  
+F. 0 false's value is 0, 0+0=0  
+G. '3undefined' undefined will append to '3' which is 3undefined.
+H. NaN  we cannot do subtract, it will get NaN which means not a number.  
+### Question 14
+A. True; 2 is greater than 1.  
+B. True; 2 is not greater than 12.  
+C. True; 2 is same as '2'.
+D. False; 2 and '2' is not same because their types are different.  
+E. False; true means 1 and not equal to 2.
+F. True; Boolean(2) will return true, which is equal to true.  
+### Question 15
+== will transform the operands having same type before comparison.  
+=== will directly compare. If the type is not same, it will return false.  
+
