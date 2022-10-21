@@ -45,4 +45,7 @@ F. True; Boolean(2) will return true, which is equal to true.
 ### Question 15
 == will transform the operands having same type before comparison.  
 === will directly compare. If the type is not same, it will return false.  
-
+### Question 17
+modifyArray([1,2,3],doSomething) will return [2,4,6].
+In the loop, each number will go to doSomething first and then push back to arr.
+doSomething just 2 * the original numbers. Therefore, we get [2,4,6]  
