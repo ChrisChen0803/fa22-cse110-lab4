@@ -49,3 +49,8 @@ F. True; Boolean(2) will return true, which is equal to true.
 modifyArray([1,2,3],doSomething) will return [2,4,6].
 In the loop, each number will go to doSomething first and then push back to arr.
 doSomething just 2 * the original numbers. Therefore, we get [2,4,6]  
+### Question 18  
+1 4 3 2
+When running PrintNums, the console.log(1) and console.log(4) will be done first, therefore we have 1 and 4 at first.  
+Other than that, when this function end, setTimeout(function() { console.log(3); } , 0); will be done because this line means run console.log(3) at 0 second after this function end.
+After 1 second, setTimeout(function() { console.log(2); } , 1000); will be done because this line means run console.log(2) at 1 second after this function end.
