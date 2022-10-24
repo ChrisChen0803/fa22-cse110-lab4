@@ -22,9 +22,9 @@ Ans: 3. const length is 3, this will not change.
 Ans: It is an array that record the finalPrices, which is 100 * 50%=50,200* 50%=100,300* 50%=150. 
 ### Question 12
 A. student.name;  
-B. student["Grad Year"];  
+B. student['Grad Year'];  
 C. student.greeting();  
-D. student["Favorite Teacher"].name;  
+D. student['Favorite Teacher'].name;  
 E. student.courseLoad[0];  
 ### Question 13
 A. '32' 2 will append to '3' and get 32.  
@@ -33,7 +33,7 @@ C. 3 number 3 + null which is 0 will get 3.
 D. '3null'  null append to 3 is 3null  
 E. 4 true's value is 1, 1+3=4  
 F. 0 false's value is 0, 0+0=0  
-G. '3undefined' undefined will append to '3' which is 3undefined.
+G. '3undefined' undefined will append to '3' which is 3undefined.  
 H. NaN  undefined will convert to NaN, 3- NaN will also get NaN which means not a number.  
 ### Question 14
 A. True; 2 is greater than 1.  
@@ -49,7 +49,7 @@ F. True; Boolean(2) will return true, which is equal to true.
 modifyArray([1,2,3],doSomething) will return [2,4,6].
 In the loop, each number will go to doSomething first and then push back to arr.
 doSomething just 2 * the original numbers. Therefore, we get [2,4,6]  
-### Question 18  
+### Question 19  
 1 4 3 2
 When running PrintNums, the console.log(1) and console.log(4) will be done first, therefore we have 1 and 4 at first.   
 Other than that, when this function end, setTimeout(function() { console.log(3); } , 0); will be done because this line means run console.log(3) at 0 second after this function end.   
